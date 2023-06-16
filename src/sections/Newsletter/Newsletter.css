@@ -101,6 +101,13 @@
   }
 }
 
+/* @media screen and (min-width: 1024px) {
+  .newsletter__container form input,
+  .newsletter__container form button {
+    width: 150%;
+  }
+} */
+
 .newsletter__container form button {
   width: 60%;
   background: rgba(255, 255, 255, 0.1);
@@ -130,3 +137,5 @@ button:focus::placeholder {
   background: var(--color-primary);
   cursor: pointer;
 }
+
+

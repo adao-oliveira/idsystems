@@ -10,6 +10,10 @@
     gap: 1rem;
 }
 
+.card.service:hover {
+    border-color: var(--color-primary);
+}
+
 .service__icon {
     background: var(--color-primary);
     padding: 0.6rem;

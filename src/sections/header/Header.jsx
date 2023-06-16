@@ -63,7 +63,7 @@ const Header = () => {
           <a href="#contact" className='btn primary'>Vamos nos conectar <HiArrowCircleRight size={25} /></a>
           <a href="#portfolio" className='btn light'>Veja nosso portfolio</a>
         </div>
-        <div className="header__socials">
+        <div className="header__socials" data-aos="fade-up">
           {
             data.map(item => <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer"><div className="header__icon">{item.icon}</div></a>)
           }

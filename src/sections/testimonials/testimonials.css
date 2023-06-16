@@ -12,6 +12,10 @@
     cursor: grab;
 }
 
+.swiper-slide .card:hover {
+    border-color: var(--color-primary);
+}
+
 .testimonial__client {
     display: flex;
     align-items: center;
@@ -30,7 +34,6 @@
 .swiper-pagination {
     margin-bottom: 8rem;
 }
-
 
 .swiper-pagination-bullet {
     background: var(--color-primary);

@@ -85,13 +85,13 @@ header {
 }
 
 .typewriterWrapper {
-    font-size: 45px;
+    font-size: 35px;
     color: var(--color-primary);
     font-weight: 700;
 }
 
 .typewriterCursor {
-    font-size: 45px;
+    font-size: 35px;
     color: var(--color-primary);
 }
 

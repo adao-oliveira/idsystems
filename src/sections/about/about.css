@@ -32,6 +32,10 @@
     text-align: center;
 }
 
+.card.about__card:hover {
+    border-color: var(--color-primary);
+}
+
 .about__card-icon {
     font-size: 1.3rem;
     color: var(--color-black);

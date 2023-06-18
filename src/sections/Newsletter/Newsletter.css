@@ -9,8 +9,8 @@
 
 .newsletter__container {
   display: grid;
-  grid-template-columns: 35% 100%;
-  gap: 12%;
+  grid-template-columns: 35% 70%;
+  gap: 10%;
   background: #FFFFFF;
   border-radius: 55px;
   color: #121212;
@@ -86,8 +86,8 @@
   border: 1px solid var(--color-primary);
   border-radius: 20px;
   color: #121212;
-  margin: 0 0 8px 0;
-  padding: 18px 26px;
+  margin: 0 0 8px -25px;
+  padding: 10px;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -101,15 +101,18 @@
   }
 }
 
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .newsletter__container form input,
   .newsletter__container form button {
     width: 150%;
   }
-} */
+  .newsletter__container form button {
+    width: 60%;
+  }
+}
 
 .newsletter__container form button {
-  width: 60%;
+  /* width: 60%; */
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid var(--color-primary);
 }

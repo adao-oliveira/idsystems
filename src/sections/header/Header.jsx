@@ -42,7 +42,7 @@ const Header = () => {
         <div className='astro' data-aos="fade-in">
           <img src={headerImg} alt="Header Img" />
         </div>
-        <h3 data-aos="fade-up">Somos a ID SYSTEMS</h3>
+        <h1 className="primary" data-aos="fade-up">Somos a ID SYSTEMS</h1>
         <p data-aos="fade-up">
           <span className="wrap">
             <Typewriter

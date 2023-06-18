@@ -84,7 +84,7 @@ header {
     margin-left: 25px;
 }
 
-.typewriterWrapper {
+.typewriterWrapper, h1 {
     font-size: 35px;
     color: var(--color-primary);
     font-weight: 700;

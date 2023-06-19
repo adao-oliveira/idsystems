@@ -46,7 +46,7 @@ const Header = () => {
         <p data-aos="fade-up">
           <span className="wrap">
             <Typewriter
-            className="primary"
+              className="primary"
               responsive={responsive}
               strings={[
                 'Desenvolvimento WEB',

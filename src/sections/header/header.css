@@ -1,11 +1,4 @@
 header {
-    /* margin-top: 5rem;
-    height: calc(100vh - 5rem);
-    display: grid;
-    place-items: center;
-    background: var(--color-white);
-    transition: var(--transition); */
-
     margin-top: 0;
     padding: 260px 0 100px 0;
     background-image: url('../../assets/banner-bg.png');
@@ -19,6 +12,10 @@ header {
     flex-direction: column;
     align-items: center;
     position: relative;
+}
+
+.header__container h1 {
+    font-size: 35px;
 }
 
 .header__profile {
@@ -46,26 +43,20 @@ header {
     left: 0;
     bottom: 0;
     display: flex;
-    /* flex-direction: column; */
     margin-top: 40px;
     gap: 1rem;
 }
 
 .header__socials a {
-    /* width: 3.8rem; */
     aspect-ratio: 1/1;
-    /* background: var(--color-light); */
     color: var(--color-black);
-    /* display: grid; */
     place-items: center;
     border-radius: var(--border-radius-3);
 }
 
 .header__icon {
     background: var(--color-primary);
-    /* padding: 0.6rem; */
     border-radius: var(--border-radius-3);
-    /* font-size: 1.5rem; */
     color: var(--color-white);
     transition: var(--transition);
 }
@@ -84,8 +75,9 @@ header {
     margin-left: 25px;
 }
 
-.typewriterWrapper, h1 {
-    font-size: 35px;
+.typewriterWrapper,
+h1 {
+    font-size: 30px;
     color: var(--color-primary);
     font-weight: 700;
 }
@@ -117,13 +109,16 @@ header {
 @media screen and (max-width: 1024px) {
     header {
         margin-top: 0;
-        height: 100vh;
+        height: 150vh;
     }
 }
 
-
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 600px) {
+    header {
+        height: 120vh;
+    }
+
     .header__profile {
         width: 14rem;
         height: 17rem;
@@ -135,6 +130,10 @@ header {
         width: 100%;
     }
 
+    .header__container h1 {
+        font-size: 30px;
+    }
+
     .header__cta {
         gap: 1rem;
     }
@@ -142,4 +141,28 @@ header {
     .header__socials {
         display: none;
     }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        height: 135vh;
+    }
+
+    .header__container h1 {
+        font-size: 25px;
+    }
+
+    .typewriterWrapper,
+    h1 {
+        font-size: 20px;
+    }
+
+    .typewriterCursor {
+        font-size: 20px;
+    }
+
+    .header__cta a {
+        font-size: 10px;
+    }
+
 }

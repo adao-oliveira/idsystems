@@ -1,48 +1,16 @@
-.newsletter__back {
-  background-color: var(--color-primary);
-}
-
 .newsletter__back span {
   color: var(--color-primary);
+  font-weight: bold;
+}
+
+.newsletter__back span img {
+  margin-left: 10px;
 }
 
 .newsletter__container {
-  background: #fff;
+  background: #111;
   border-radius: 55px;
   color: #121212;
-  /* padding: 10px; */
-  margin-bottom: 80px;
-  margin-top: 80px;
-  /* margin-top: -122px; */
-}
-
-.newsletter__container h2 {
-  color: #121212;
-}
-
-.newsletter__portrait {
-  height: fit-content;
-  max-height: 40rem;
-  /* border: 1rem solid var(--color-white); */
-  /* transition: var(--transition); */
-  border-radius: 2rem;
-  /* overflow: hidden; */
-}
-
-.newsletter__portrait img {
-  margin-top: -17vh;
-  width: 60% !important;
-}
-
-.newsletter__cards {
-  margin: 3rem 0 1.5rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
-.card.newsletter__card {
-  text-align: center;
 }
 
 .newsletter__back input,

@@ -1,9 +1,9 @@
-import AboutImage from '../../assets/about.jpg'
 // import TERMO from '../../assets/TERMO.pdf'
 import { HiDownload } from 'react-icons/hi'
 import data from './data'
 import Card from '../../components/Card'
 import './about.css'
+import aboutImage from '../../assets/about.png'
 
 const About = () => {
     return (
@@ -11,7 +11,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__left">
                     <div className="about__portrait">
-                        <img src="https://res.cloudinary.com/robles-identity/image/upload/v1686434827/56323078-08D4-4EF9-B138-1F135291A4FA_o6lqo0.png" alt="About Image" />
+                        <img src={aboutImage} alt="About Image" />
                     </div>
                 </div>
                 <div className="about__right">

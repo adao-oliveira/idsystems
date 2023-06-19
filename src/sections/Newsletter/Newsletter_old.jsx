@@ -30,7 +30,7 @@ const Newsletter = () => {
                 <input type="text" placeholder="Segundo nome" name="fields[last_name]" required />
                 <input type="email" placeholder="Seu melhor E-mail" name="email_address" required />
                 <button data-element="submit" className="BtnAnimationConnect">
-                  <div class="formkit-spinner">
+                  <div className="formkit-spinner">
                     <div></div>
                     <div></div>
                     <div></div>

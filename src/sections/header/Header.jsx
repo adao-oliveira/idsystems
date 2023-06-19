@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import HeaderImage from '../../assets/header.jpg'
 import headerImg from "../../assets/header-img.svg";
 import data from './data'
 import AOS from 'aos'
@@ -15,7 +14,6 @@ const Header = () => {
 
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -36,9 +34,6 @@ const Header = () => {
   return (
     <header id="header">
       <div className="container header__container">
-        {/* <div className="header__profile" data-aos="fade-in">
-          <img src={HeaderImage} alt="Header Portait" />
-        </div> */}
         <div className='astro' data-aos="fade-in">
           <img src={headerImg} alt="Header Img" />
         </div>

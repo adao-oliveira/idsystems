@@ -4,7 +4,6 @@
 
 .swiper {
     height: 30rem;
-    /* this paddint top is to give space for micro interaction on hover of swiper slide */
     padding-top: 1rem;
 }
 

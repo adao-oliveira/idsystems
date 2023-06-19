@@ -15,7 +15,6 @@ const Projects = ({ projects }) => {
     <Swiper
       slidesPerView={1}
       spaceBetween={30}
-      EffectFlip={true}
       breakpoints={{
         601: { slidesPerView: 2 },
         1025: { slidesPerView: 3 }

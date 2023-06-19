@@ -12,15 +12,6 @@ nav {
     transition: 0.32s ease-in-out;
 }
 
-/* nav {
-    padding: 18px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 9999;
-    transition: 0.32s ease-in-out;
-} */
-
 .nav__container {
     display: flex;
     justify-content: space-between;
@@ -30,9 +21,6 @@ nav {
 .nav__logo {
     width: 7rem;
     overflow: hidden;
-
-    /* width: 150%; */
-    /* height: 10vh; */
 }
 
 .nav__menu {

@@ -8,7 +8,7 @@
 }
 
 .newsletter__container {
-  background: #111;
+  background: var(--color-light);
   border-radius: 55px;
   color: #121212;
 }

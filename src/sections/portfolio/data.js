@@ -11,15 +11,15 @@ import Image9 from '../../assets/project9.jpg'
 const data = [
     {
         id: 1,
-        category: 'UI/UX',
+        category: 'WEB Design',
         image: Image1,
         title: "Titulo do Projeto",
         desc: "Descrição do Projeto",
-        demo: 'http://egatortutorials.com'
+        demo: 'https://res.cloudinary.com/robles-identity/image/upload/v1687585378/1D153F24-68DD-4864-A6E5-4C267602D922_yin6qo.png'
     },
     {
         id: 2,
-        category: 'UI/UX',
+        category: 'WEB Design',
         image: Image2,
         title: "Titulo do Projeto",
         desc: "Descrição do Projeto",
@@ -75,11 +75,27 @@ const data = [
     },
     {
         id: 9,
-        category: 'Desenvolvimento WEB',
+        category: 'Identidade Visual',
         image: Image9,
         title: "Titulo do Projeto",
         desc: "Descrição do Projeto",
         demo: 'http://egatortutorials.com'
+    },
+    {
+        id: 10,
+        category: 'Identidade Visual',
+        image: Image9,
+        title: "Titulo do Projeto",
+        desc: "Descrição do Projeto",
+        demo: 'http://egatortutorials.com'
+    },
+    {
+        id: 11,
+        category: 'Desenvolvimento WEB',
+        image: Image9,
+        title: "Titulo do Projeto",
+        desc: "Descrição do Projeto",
+        demo: 'https://pokedex-zeta-red.vercel.app/'
     }
 ]
 

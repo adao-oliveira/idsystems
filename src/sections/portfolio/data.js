@@ -96,6 +96,14 @@ const data = [
         title: "Titulo do Projeto",
         desc: "Descrição do Projeto",
         demo: 'https://pokedex-zeta-red.vercel.app/'
+    },
+    {
+        id: 12,
+        category: 'Desenvolvimento WEB',
+        image: Image9,
+        title: "Tech Gamers",
+        desc: "Loja virtual de acessórios, mouses, teclados e variedades para Gamers desenvolvido para Tech Gamers.",
+        demo: 'https://tech-gamers.vercel.app/'
     }
 ]
 
